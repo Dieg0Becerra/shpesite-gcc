@@ -11,6 +11,19 @@ body {
   top: 0;
   padding: 1rem;
   background: white;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  justify-items: start;
+}
+
+.nav-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.nav-right {
+  justify-self: end;
 }
 
 .button {
